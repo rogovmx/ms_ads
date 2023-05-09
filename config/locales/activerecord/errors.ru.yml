@@ -1,0 +1,14 @@
+ru:
+  errors:
+    format: "%{message}"
+  activerecord:
+    errors:
+      models:
+        ad:
+          attributes:
+            title:
+              blank: 'Укажите название'
+            description:
+              blank: 'Укажите описание'
+            city:
+              blank: 'Укажите город'
